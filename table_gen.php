@@ -10,7 +10,7 @@
     {
         echo '<td>'.($i+1).'列'.($j+1).'行'.'</td>';
     }
-    echo '<td>';
-
+    echo '<tr>';
    }
+   echo '</table>';
 ?>
