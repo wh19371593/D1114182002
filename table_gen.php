@@ -1,7 +1,9 @@
 <?php
    $row_num = $_GET['row_num'];
    $col_num = $_GET['col_num'];
+   $gender = $_GET['gender'];
    echo '輸入大小:'.$row_num.'列'.$col_num.'行';
+   echo $gender;
    echo'<table border="1">';
    for($i = 0; $i < $row_num; $i++) 
    {
